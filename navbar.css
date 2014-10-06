@@ -1,0 +1,16 @@
+body {
+  padding-top: 120px; /* Body padding required for fixed top navbar */
+  padding-bottom: 20px;
+  background: #fcfcfc;
+  color: #4e596b;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  border: none;
+
+}
+
+
+
+

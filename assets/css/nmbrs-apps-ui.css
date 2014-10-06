@@ -1,0 +1,273 @@
+
+/*------------------------------------*\
+    NMBRS BUTTONS
+\*------------------------------------*/
+
+
+.btn {
+display: inline-block;
+padding: 6px 12px;
+color: #fff; /* text color */
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px; /* border radius */
+-webkit-user-select: none;
+-moz-user-select: none;
+}
+
+
+.btn-default {
+color: #4e596b;
+border: 1px solid #e8e8e8 ; /* stroke */
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #f6f6f6; /* layer fill content */
+}
+
+.btn-default:hover {
+color: #4e596b;
+border: 1px solid #e8e8e8 ; /* stroke */
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #fcfcfc; /* layer fill content */
+}
+
+
+.btn-default:active {
+ color: #000;
+}
+
+.btn-primary {
+  border: 1px solid #2f95d7; /* stroke */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #2f95d7; /* layer fill content */
+ /* gradient overlay */
+background-image: -moz-linear-gradient(bottom, #2f95d7 0%, #40a5e9 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #2f95d7 0%, #40a5e9 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #2f95d7 0%, #40a5e9 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #2f95d7 0%, #40a5e9 100%); /* gradient overlay */
+}
+
+.btn-primary:hover {
+ border: 1px solid #2f95d7; /* stroke */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #40a5e8; /* layer fill content */
+  /* gradient overlay */
+background-image: -moz-linear-gradient(bottom, #40a5e9 0%, #40a5e9 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #40a5e9 0%, #40a5e9 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #40a5e9 0%, #40a5e9 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #40a5e9 0%, #40a5e9 100%); /* gradient overlay */
+}
+
+.btn-primary:active {
+ color: #0e639b;
+}
+
+.btn-success {
+  border: 1px solid #77bd23; /* stroke */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #2f95d7; /* layer fill content */
+ /* gradient overlay */
+background-image: -moz-linear-gradient(bottom, #75bd21 0%, #89c941 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #75bd21 0%, #89c941 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #75bd21 0%, #89c941 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #75bd21 0%, #89c941 100%); /* gradient overlay */
+
+}
+
+.btn-success:hover {
+ border: 1px solid #77be24; /* stroke */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #88c940; /* layer fill content */
+  /* gradient overlay */
+background-image: -moz-linear-gradient(bottom, #88c940  0%, #88c940  100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #88c940  0%, #88c940  100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #88c940  0%, #88c940  100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #88c940  0%, #88c940  100%); /* gradient overlay */
+}
+
+.btn-success:active {
+ color: #4e870b;
+}
+
+
+.btn-info {
+border: 1px solid #5fbfdb; /* stroke */
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #5fbfdb; /* layer fill content */
+background-image: -moz-linear-gradient(bottom, #5fbfdb 0%, #77cfe9 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #5fbfdb 0%, #77cfe9 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #5fbfdb 0%, #77cfe9 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #5fbfdb 0%, #77cfe9 100%); /* gradient overlay */
+}
+
+.btn-info:hover {
+border: 1px solid #5fbfdb; /* stroke */
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #77cfe9; /* layer fill content */
+background-image: -moz-linear-gradient(bottom, #77cfe9  0%, #77cfe9 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #77cfe9  0%, #77cfe9 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #77cfe9  0%, #77cfe9 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #77cfe9  0%, #77cfe9 100%); /* gradient overlay */
+}
+
+.btn-info:active {
+color: #278aa7;
+}
+
+.btn-warning {
+border: 1px solid #e7a147; /* stroke */
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #efad57; /* layer fill content */
+/* gradient overlay */
+background-image: -moz-linear-gradient(bottom, #e7a147 0%, #efad57 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #e7a147 0%, #efad57 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #e7a147 0%, #efad57 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #e7a147 0%, #efad57 100%); /* gradient overlay */
+
+}
+
+.btn-warning:hover {
+border: 1px solid #e7a147; /* stroke */
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #efad57; /* layer fill content */
+/* gradient overlay */
+background-image: -moz-linear-gradient(bottom, #efad57 0%, #efad57 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #efad57 0%, #efad57 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #efad57 0%, #efad57 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #efad57 0%, #efad57 100%); /* gradient overlay */
+}
+
+.btn-warning:active {
+color: #ba7721;
+}
+
+.btn-danger {
+border: 1px solid #d1413f; /* stroke */
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #d75553; /* layer fill content */
+/* gradient overlay */
+background-image: -moz-linear-gradient(bottom, #d1413f 0%, #d75553 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #d1413f 0%, #d75553 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #d1413f 0%, #d75553 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #d1413f 0%, #d75553 100%); /* gradient overlay */
+}
+
+.btn-danger:hover {
+border: 1px solid #d1413f; /* stroke */
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px; /* border radius */
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box; /* prevents bg color from leaking outside the border */
+background-color: #d75553; /* layer fill content */
+/* gradient overlay */
+background-image: -moz-linear-gradient(bottom, #d75553 0%, #d75553 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #d75553 0%, #d75553 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #d75553 0%, #d75553 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #d75553 0%, #d75553 100%); /* gradient overlay */
+}
+
+.btn-danger:active {
+color: #ad1b19;
+}
+
+.btn-link {
+color: #2f95d7;
+background-color:transparent;
+
+}
+
+.btn-link:hover {
+color: #2f95d7;
+background-color: transparent;
+text-decoration: underline;
+
+}
+
+.btn-link:active {
+color: #40a5e9;
+}
+
+
+/*------------------------------------*\
+    END NMBRS BUTTONS END
+\*------------------------------------*/
+
+/*------------------------------------*\
+    BEGIN NMBRS FORMS BEGIN
+\*------------------------------------*/
+
+label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+
+.input-sm, .form-horizontal .form-group-sm .form-control {
+height: 26px;
+padding: 5px 10px;
+font-size: 12px;
+line-height: 1.5;
+border-radius: 3px;
+}
+
+
+/*------------------------------------*\
+    END NMBRS FORMS END
+\*------------------------------------*/
+
